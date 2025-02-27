@@ -140,6 +140,37 @@ header nav ul li a {
 }
 
 .cta {
+  padding: 80px 400px;
+}
+
+.cta-card {
   display: flex;
+  padding: 40px 120px;
   background-color: #3882F6;
+  border-radius: 10px;
+}
+
+.cta-card-content h4 {
+  color: #F9FAF8;
+  font-size: 22px;
+}
+
+.cta-card-content p {
+  color: #E5E7EB;
+}
+
+.cta-card-footer {
+  margin-left: auto;
+  align-self: center;
+}
+
+.cta-card-footer button {
+  color: #F9FAF8;
+  background-color: transparent;
+  border: 2px solid #F9FAF8;
+  border-radius: 8px;
+  padding: 8px 24px;
+  margin-top: 12px;
+  font-size: 16px;
+  width: 120px;
 }
